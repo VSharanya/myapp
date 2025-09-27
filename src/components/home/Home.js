@@ -8,6 +8,7 @@ function Home() {
         <p className='lead'>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quisquam excepturi tenetur esse, suscipit impedit nobis optio maiores culpa perspiciatis accusamus, exercitationem laboriosam atque. Mollitia, laboriosam ullam nobis eaque necessitatibus impedit? Est enim soluta aliquid fugiat, molestiae sapiente cum odit omnis, velit excepturi illo ducimus dignissimos temporibus recusandae natus fugit.
         </p>
+    <p> hi </p>
     </div>
   )
 }
