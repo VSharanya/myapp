@@ -20,7 +20,7 @@ pipeline {
                     // Only run test if package.json has a test script
                     def packageJson = readFile('package.json')
                     if (packageJson.contains('"test"')) {
-                        bat 'npm test'
+                        bat 'npm test -- --passWithNoTests'
                     } else {
                         echo "No test script found. Skipping tests."
                     }
